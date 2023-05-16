@@ -1,0 +1,21 @@
+{%extends 'base.html'%}
+   {%block content%}
+   
+<title>Usuários</title>
+
+<main>
+    <table>
+        <tr>
+            <th>Email</th>
+            <th>Assunto</th>
+            <th>Descrição</th>
+        </tr>
+        <tr>
+            <td>{{ user[0] }}</td>
+            <td>{{ user[1] }}</td>
+            <td>{{ user[2] }}</td>
+        </tr>
+    </table>
+</main>
+
+{%endblock%}
